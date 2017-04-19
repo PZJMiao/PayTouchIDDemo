@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		083AF75E1EA5AE050053A527 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 083AF75D1EA5AE050053A527 /* main.m */; };
+		083AF7611EA5AE050053A527 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 083AF7601EA5AE050053A527 /* AppDelegate.m */; };
+		083AF7641EA5AE050053A527 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 083AF7631EA5AE050053A527 /* ViewController.m */; };
+		083AF7671EA5AE050053A527 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 083AF7651EA5AE050053A527 /* Main.storyboard */; };
+		083AF7691EA5AE050053A527 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 083AF7681EA5AE050053A527 /* Assets.xcassets */; };
+		083AF76C1EA5AE050053A527 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 083AF76A1EA5AE050053A527 /* LaunchScreen.storyboard */; };
+		083AF7771EA5AE050053A527 /* PayTouchIDDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 083AF7761EA5AE050053A527 /* PayTouchIDDemoTests.m */; };
+		083AF7821EA5AE050053A527 /* PayTouchIDDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 083AF7811EA5AE050053A527 /* PayTouchIDDemoUITests.m */; };
+		083AF7911EA5B9F70053A527 /* SuccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 083AF7901EA5B9F70053A527 /* SuccessViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		083AF7731EA5AE050053A527 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 083AF7511EA5AE050053A527 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 083AF7581EA5AE050053A527;
+			remoteInfo = PayTouchIDDemo;
+		};
+		083AF77E1EA5AE050053A527 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 083AF7511EA5AE050053A527 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 083AF7581EA5AE050053A527;
+			remoteInfo = PayTouchIDDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		083AF7591EA5AE050053A527 /* PayTouchIDDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayTouchIDDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		083AF75D1EA5AE050053A527 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		083AF75F1EA5AE050053A527 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		083AF7601EA5AE050053A527 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		083AF7621EA5AE050053A527 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		083AF7631EA5AE050053A527 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		083AF7661EA5AE050053A527 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		083AF7681EA5AE050053A527 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		083AF76B1EA5AE050053A527 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		083AF76D1EA5AE050053A527 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		083AF7721EA5AE050053A527 /* PayTouchIDDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayTouchIDDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		083AF7761EA5AE050053A527 /* PayTouchIDDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PayTouchIDDemoTests.m; sourceTree = "<group>"; };
+		083AF7781EA5AE050053A527 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		083AF77D1EA5AE050053A527 /* PayTouchIDDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayTouchIDDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		083AF7811EA5AE050053A527 /* PayTouchIDDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PayTouchIDDemoUITests.m; sourceTree = "<group>"; };
+		083AF7831EA5AE050053A527 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		083AF78F1EA5B9F70053A527 /* SuccessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuccessViewController.h; sourceTree = "<group>"; };
+		083AF7901EA5B9F70053A527 /* SuccessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuccessViewController.m; sourceTree = "<group>"; };
+		083AF7921EA5C2410053A527 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		083AF7561EA5AE050053A527 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		083AF76F1EA5AE050053A527 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		083AF77A1EA5AE050053A527 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		083AF7501EA5AE050053A527 = {
+			isa = PBXGroup;
+			children = (
+				083AF75B1EA5AE050053A527 /* PayTouchIDDemo */,
+				083AF7751EA5AE050053A527 /* PayTouchIDDemoTests */,
+				083AF7801EA5AE050053A527 /* PayTouchIDDemoUITests */,
+				083AF75A1EA5AE050053A527 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		083AF75A1EA5AE050053A527 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				083AF7591EA5AE050053A527 /* PayTouchIDDemo.app */,
+				083AF7721EA5AE050053A527 /* PayTouchIDDemoTests.xctest */,
+				083AF77D1EA5AE050053A527 /* PayTouchIDDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		083AF75B1EA5AE050053A527 /* PayTouchIDDemo */ = {
+			isa = PBXGroup;
+			children = (
+				083AF75F1EA5AE050053A527 /* AppDelegate.h */,
+				083AF7601EA5AE050053A527 /* AppDelegate.m */,
+				083AF7621EA5AE050053A527 /* ViewController.h */,
+				083AF7631EA5AE050053A527 /* ViewController.m */,
+				083AF78F1EA5B9F70053A527 /* SuccessViewController.h */,
+				083AF7901EA5B9F70053A527 /* SuccessViewController.m */,
+				083AF7651EA5AE050053A527 /* Main.storyboard */,
+				083AF7681EA5AE050053A527 /* Assets.xcassets */,
+				083AF76A1EA5AE050053A527 /* LaunchScreen.storyboard */,
+				083AF76D1EA5AE050053A527 /* Info.plist */,
+				083AF75C1EA5AE050053A527 /* Supporting Files */,
+			);
+			path = PayTouchIDDemo;
+			sourceTree = "<group>";
+		};
+		083AF75C1EA5AE050053A527 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				083AF75D1EA5AE050053A527 /* main.m */,
+				083AF7921EA5C2410053A527 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		083AF7751EA5AE050053A527 /* PayTouchIDDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				083AF7761EA5AE050053A527 /* PayTouchIDDemoTests.m */,
+				083AF7781EA5AE050053A527 /* Info.plist */,
+			);
+			path = PayTouchIDDemoTests;
+			sourceTree = "<group>";
+		};
+		083AF7801EA5AE050053A527 /* PayTouchIDDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				083AF7811EA5AE050053A527 /* PayTouchIDDemoUITests.m */,
+				083AF7831EA5AE050053A527 /* Info.plist */,
+			);
+			path = PayTouchIDDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		083AF7581EA5AE050053A527 /* PayTouchIDDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 083AF7861EA5AE050053A527 /* Build configuration list for PBXNativeTarget "PayTouchIDDemo" */;
+			buildPhases = (
+				083AF7551EA5AE050053A527 /* Sources */,
+				083AF7561EA5AE050053A527 /* Frameworks */,
+				083AF7571EA5AE050053A527 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PayTouchIDDemo;
+			productName = PayTouchIDDemo;
+			productReference = 083AF7591EA5AE050053A527 /* PayTouchIDDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		083AF7711EA5AE050053A527 /* PayTouchIDDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 083AF7891EA5AE050053A527 /* Build configuration list for PBXNativeTarget "PayTouchIDDemoTests" */;
+			buildPhases = (
+				083AF76E1EA5AE050053A527 /* Sources */,
+				083AF76F1EA5AE050053A527 /* Frameworks */,
+				083AF7701EA5AE050053A527 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				083AF7741EA5AE050053A527 /* PBXTargetDependency */,
+			);
+			name = PayTouchIDDemoTests;
+			productName = PayTouchIDDemoTests;
+			productReference = 083AF7721EA5AE050053A527 /* PayTouchIDDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		083AF77C1EA5AE050053A527 /* PayTouchIDDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 083AF78C1EA5AE050053A527 /* Build configuration list for PBXNativeTarget "PayTouchIDDemoUITests" */;
+			buildPhases = (
+				083AF7791EA5AE050053A527 /* Sources */,
+				083AF77A1EA5AE050053A527 /* Frameworks */,
+				083AF77B1EA5AE050053A527 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				083AF77F1EA5AE050053A527 /* PBXTargetDependency */,
+			);
+			name = PayTouchIDDemoUITests;
+			productName = PayTouchIDDemoUITests;
+			productReference = 083AF77D1EA5AE050053A527 /* PayTouchIDDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		083AF7511EA5AE050053A527 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = pzj;
+				TargetAttributes = {
+					083AF7581EA5AE050053A527 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Z8F736K8B3;
+						ProvisioningStyle = Automatic;
+					};
+					083AF7711EA5AE050053A527 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Z8F736K8B3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 083AF7581EA5AE050053A527;
+					};
+					083AF77C1EA5AE050053A527 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Z8F736K8B3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 083AF7581EA5AE050053A527;
+					};
+				};
+			};
+			buildConfigurationList = 083AF7541EA5AE050053A527 /* Build configuration list for PBXProject "PayTouchIDDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 083AF7501EA5AE050053A527;
+			productRefGroup = 083AF75A1EA5AE050053A527 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				083AF7581EA5AE050053A527 /* PayTouchIDDemo */,
+				083AF7711EA5AE050053A527 /* PayTouchIDDemoTests */,
+				083AF77C1EA5AE050053A527 /* PayTouchIDDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		083AF7571EA5AE050053A527 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				083AF76C1EA5AE050053A527 /* LaunchScreen.storyboard in Resources */,
+				083AF7691EA5AE050053A527 /* Assets.xcassets in Resources */,
+				083AF7671EA5AE050053A527 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		083AF7701EA5AE050053A527 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		083AF77B1EA5AE050053A527 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		083AF7551EA5AE050053A527 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				083AF7641EA5AE050053A527 /* ViewController.m in Sources */,
+				083AF7611EA5AE050053A527 /* AppDelegate.m in Sources */,
+				083AF7911EA5B9F70053A527 /* SuccessViewController.m in Sources */,
+				083AF75E1EA5AE050053A527 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		083AF76E1EA5AE050053A527 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				083AF7771EA5AE050053A527 /* PayTouchIDDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		083AF7791EA5AE050053A527 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				083AF7821EA5AE050053A527 /* PayTouchIDDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		083AF7741EA5AE050053A527 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 083AF7581EA5AE050053A527 /* PayTouchIDDemo */;
+			targetProxy = 083AF7731EA5AE050053A527 /* PBXContainerItemProxy */;
+		};
+		083AF77F1EA5AE050053A527 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 083AF7581EA5AE050053A527 /* PayTouchIDDemo */;
+			targetProxy = 083AF77E1EA5AE050053A527 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		083AF7651EA5AE050053A527 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				083AF7661EA5AE050053A527 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		083AF76A1EA5AE050053A527 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				083AF76B1EA5AE050053A527 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		083AF7841EA5AE050053A527 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		083AF7851EA5AE050053A527 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		083AF7871EA5AE050053A527 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z8F736K8B3;
+				GCC_PREFIX_HEADER = PayTouchIDDemo/PrefixHeader.pch;
+				INFOPLIST_FILE = PayTouchIDDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdyl.PayTouchIDDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		083AF7881EA5AE050053A527 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z8F736K8B3;
+				GCC_PREFIX_HEADER = PayTouchIDDemo/PrefixHeader.pch;
+				INFOPLIST_FILE = PayTouchIDDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdyl.PayTouchIDDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		083AF78A1EA5AE050053A527 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Z8F736K8B3;
+				INFOPLIST_FILE = PayTouchIDDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdyl.PayTouchIDDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PayTouchIDDemo.app/PayTouchIDDemo";
+			};
+			name = Debug;
+		};
+		083AF78B1EA5AE050053A527 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Z8F736K8B3;
+				INFOPLIST_FILE = PayTouchIDDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdyl.PayTouchIDDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PayTouchIDDemo.app/PayTouchIDDemo";
+			};
+			name = Release;
+		};
+		083AF78D1EA5AE050053A527 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Z8F736K8B3;
+				INFOPLIST_FILE = PayTouchIDDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdyl.PayTouchIDDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PayTouchIDDemo;
+			};
+			name = Debug;
+		};
+		083AF78E1EA5AE050053A527 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Z8F736K8B3;
+				INFOPLIST_FILE = PayTouchIDDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdyl.PayTouchIDDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PayTouchIDDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		083AF7541EA5AE050053A527 /* Build configuration list for PBXProject "PayTouchIDDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				083AF7841EA5AE050053A527 /* Debug */,
+				083AF7851EA5AE050053A527 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		083AF7861EA5AE050053A527 /* Build configuration list for PBXNativeTarget "PayTouchIDDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				083AF7871EA5AE050053A527 /* Debug */,
+				083AF7881EA5AE050053A527 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		083AF7891EA5AE050053A527 /* Build configuration list for PBXNativeTarget "PayTouchIDDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				083AF78A1EA5AE050053A527 /* Debug */,
+				083AF78B1EA5AE050053A527 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		083AF78C1EA5AE050053A527 /* Build configuration list for PBXNativeTarget "PayTouchIDDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				083AF78D1EA5AE050053A527 /* Debug */,
+				083AF78E1EA5AE050053A527 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 083AF7511EA5AE050053A527 /* Project object */;
+}

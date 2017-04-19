@@ -1,0 +1,21 @@
+//
+//  PrefixHeader.pch
+//  PayTouchIDDemo
+//
+//  Created by pzj on 2017/4/18.
+//  Copyright © 2017年 pzj. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define  SCREENWIDETH   [UIScreen mainScreen].bounds.size.width
+#define  SCREENHEIGHT   [UIScreen mainScreen].bounds.size.height
+
+//版本号
+#define System_Version [[[UIDevice currentDevice] systemVersion] floatValue]
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
